@@ -8,7 +8,7 @@ namespace TestProject
         [TestMethod]
         public void AddCash_amount_less_0()
         {
-            HardwareShop.Cash = -400;
+            HardwareShop.Cash = -300;
             int expected = 0;
             int actual = HardwareShop.Cash;
             Assert.AreEqual(expected, actual);

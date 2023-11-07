@@ -41,7 +41,7 @@ namespace TestProject
         [TestMethod]
         public void EqualCpu4()
         {
-            string cpu = "Intel_i2";
+            string cpu = "Intel_i1";
             int a = 0;
             bool result = Processor.Equal(cpu, ref a, ref a);
             Assert.IsFalse(result);
@@ -49,7 +49,7 @@ namespace TestProject
         [TestMethod]
         public void EqualCpu5()
         {
-            string cpu = "Intel_i2";
+            string cpu = "Intel_i1";
             int actual = 0;
             int b = 0;
             int expected = 1;
@@ -59,7 +59,7 @@ namespace TestProject
         [TestMethod]
         public void EqualCpu6()
         {
-            string cpu = "Intel_i2";
+            string cpu = "Intel_i1";
             int a = 0;
             int actual = 0;
             int expected = 1;
