@@ -17,7 +17,7 @@ namespace Shop.UI.Modules
             {
                 List<string> lines = new List<string>();
                 lines = File.ReadAllLines(path).ToList();
-                Console.WriteLine("Вмiст Csv файлу:");
+                Console.WriteLine("Вмiст Csv файлу: ");
                 foreach (var item in lines)
                 {
                     Console.WriteLine(item);
@@ -40,7 +40,7 @@ namespace Shop.UI.Modules
             {
                 List<string> lines = new List<string>();
                 lines = File.ReadAllLines(path).ToList();
-                Console.WriteLine("Вмiст Json файлу:");
+                Console.WriteLine("Вмiст Json файлу: ");
                 foreach (var item in lines)
                 {
                     Console.WriteLine(item);
